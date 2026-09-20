@@ -1,5 +1,3 @@
---	Functions.Notify({Title = "Used For Notifications."})
-
 local LoadStart = tick()
 
 if shared.Hastelepasta then
@@ -402,7 +400,6 @@ local LiveModifiers   = Services.ReplicatedStorage:FindFirstChild("LiveModifiers
 local FloorReplicated = Services.ReplicatedStorage:FindFirstChild("FloorReplicated")
 local CurrentRooms    = Services.Workspace:FindFirstChild("CurrentRooms")
 local Drops           = Services.Workspace:FindFirstChild("Drops")
-local GameData        = Services.ReplicatedStorage:WaitForChild("GameData")
 local Floor           = GameData:WaitForChild("Floor").Value
 local LatestRoom      = GameData:WaitForChild("LatestRoom")
 local FinishedLoadingRoom = GameData:FindFirstChild("FinishedLoadingRoom")
